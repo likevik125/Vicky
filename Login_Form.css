@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    background-image: url(../IMAGE/LOGINFARM.jpg);
+}
+span{
+    color: #ff0000;
+    font-size: 40px;
+    margin-top: 110px;
+    cursor: pointer;
+    position:absolute;
+    top: 45px;
+    right: 510px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    color: chartreuse;
+    text-transform: uppercase;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    width: 107%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+}
